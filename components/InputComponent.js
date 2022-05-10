@@ -12,7 +12,7 @@ const InputItem = props => {
   };
   return (
     <Modal visible={props.visible} animationType="slide">
-      <View style={Styles.Constiner}>
+      <View style={Styles.Container}>
         <TextInput
           style={Styles.input}
           placeholder='  Hello'
@@ -39,7 +39,7 @@ const InputItem = props => {
   );
 };
 const Styles = StyleSheet.create({
-  Constiner: {
+  Container: {
     alignItems: 'center',
     marginTop: 40,
     backgroundColor: '#3cf7ca',

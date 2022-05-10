@@ -70,9 +70,7 @@ export default function App() {
             onDelete={removeItemHandler}
             scrollables={itemData.item.value}
           />}
-
       />
-
     </View>
   );
 }
@@ -86,7 +84,6 @@ const styles = StyleSheet.create({
     padding: 10
   },
   Button: {
-    // padding: 10,
     height: 40,
     backgroundColor: '#c9f5f6',
     borderWidth: 1,
